@@ -1,0 +1,3 @@
+$ cd /home/user/Vision_app/camera_feed
+$ g++ -o camera_feed main.cpp 'pkg-config –cflags –libs opencv4' 'pkg-config –cflags –libs gstreamer-1.0' -lgstapp-1.0 -std=c++11 -pthread
+$ ./camera_feed
